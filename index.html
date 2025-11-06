@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <title>The Book Chronicles</title>
+     <meta charset="UTF-8">	
+	 <style>
+	    body{text-align: center;
+			font-family: Arial, sans-serif;
+			color: #4b2e2e
+			padding: 50px;
+			background-image: url('oldpaper.jpg');
+			background-repeat: repeat; 
+            background-size: cover;    
+            background-position: center;
+		position: relative;
+	    overflow: hidden;}
+		body::before{ 
+		   content: "";
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+		   height: 100%;
+           background-color: rgba(245, 230, 196, 0.6); 
+		   mix-blend-mode: lighten;
+           z-index: -1;}
+		h1{font-family: "Garamond", "Georgia", serif;
+		   font-size: 60px;
+		   margin-bottom: 30px;
+		   color: #4b2e2e}
+		p{font-family:"Centaur";
+		  font-size: 30px;
+		  max-width: 700px;
+		  margin: 0 auto 20px auto;}
+		a{font-family: "Centaur";
+		  font-size: 30px;
+		  color: #4b2e2e;}
+	.sticker {
+    position: absolute;
+    width: 100px; /
+    height: auto;}
+   .top-left {
+    top: 10px;
+    left: 10px;}
+   .top-right {
+    top: 10px;
+    right: 10px;}
+   .bottom-left {
+    bottom: 10px;
+    left: 10px;}
+   .bottom-right {
+    bottom: 10px;
+    right: 10px;}
+	</style>	
+   </head>
+   <body> 
+   <img src="book.png" alt="sticker" class="sticker top-left">
+   <img src="hedwig.png" alt="sticker" class="sticker top-right">
+   <img src="letter.png" alt="sticker" class="sticker bottom-left">
+   <img src="platforn.png" alt="sticker" class="sticker bottom-right">
+	<h1>The Book Chronicles</h1>
+	<p> Welcome to The Book Chronicles, the archive where we discuss all types of books! Today we will be discussing the Harry Potter Series and Fantastic Beasts sidebooks written by the famous J.K Rowling! </p>	
+	 <p>Contact us <a href="contact.html" class="contact-link">here</a> if you wish to recommend more books for us to cover.</p>
+     <a href="Clickhere.html">Click here to view our collection!</a>
+</body> 
+</html>
